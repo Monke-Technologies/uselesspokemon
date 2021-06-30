@@ -12,3 +12,5 @@ Credits for my project:
 https://wallpaperaccess.com/pokemon-scenery - All of my images for my carousel were found here and the creaters of these images have all credit. I take none in the making of these images. In the website it is stated that they are available to download for free.
 
 https://github.com/JackBiggin/mlh-bootstrap-starter-kit - This repository is credited for providing a HTML/Bootstrap template to follow.
+
+Also, I could not set up the Github pages in time. If you would like to see the execution of the code, you will have to download it. Huge apologies :(
