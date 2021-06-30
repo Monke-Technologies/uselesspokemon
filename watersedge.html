@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<head>
+    <!-- This is your page's title! It's what is shown on Google and in the tab at the top of the screen. -->
+    <title>Useless Pokemon Website</title>
+
+    <!-- CSS is how we style our website! We're including a Bootstrap CSS file, as well as one you can edit and make your own. -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="./assets/css/styles.css" rel="stylesheet" /> <!-- you can edit this file and include your own styles! -->
+    
+    <!-- This is some metadata! It allows us to specify useful things, such as keywords and your website's description. -->
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Pokemon">
+    <meta name="description" content="Gives quick summary information about Pokemon types.">
+    <meta name="author" content="Sweekrit Bhatnagar (Mouse05 on Github and Discord)">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .card {
+            background-color: rgb(52, 94, 121); color: white
+        }
+    </style>
+
+</head>
+
+<!-- Anything put your body is visible on your website! -->
+<body>
+
+    <!-- This is your Navbar! It shows links at the top of the page. -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Pokefind ;)</a>
+
+            <!-- This is some Bootstrap magic! ✨ It automagically minimises your navbar on mobile, and this button lets you open it again!-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="https://pokemondb.net">Pokemon Database</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://bulbapedia.bulbagarden.net">Bubapedia</a>
+                </li>
+            </div>
+        </div>
+    </nav>
+    <br />
+
+    <!-- This is a container! It automatically pushes your content in from the sides! 🎉 -->
+    <div class="container">
+        <h1>Useless Pokemon Information - Water's Edge</h1>
+
+        <!-- This is an example two column layout! It's response too! -->
+        <div class="row">
+            <div class="col-12 col-lg-12">
+
+                <p class = "intro_par" style = "margin-top: 0.2%">Welcome to the water's edge habitat! This is a great place to catch Water type Pokemon as well, especially if your team has not learned Surf yet (which allows you to travel on water in most games)! Come here in the beginning to find some great Water type starters!</p>
+
+                <!-- This is example card! You include one for you and your team mates! -->
+                
+                <div class = "col-md-12">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-body">
+                            <p class="card-text">Poliwag</p>
+                            </div>
+                        </div>
+                        <br />
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-body">
+                            <p class="card-text">Poliwhirl</p>
+                            </div>
+                        </div>
+                        <br />
+                    </div>
+                    
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-body">
+                            <p class="card-text">Polywrath</p>
+                            </div>
+                        </div>
+                        <br />
+                    </div>
+                    
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-body">
+                            <p class="card-text">Slowpoke</p>
+                            </div>
+                        </div>
+                        <br />
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-body">
+                            <p class="card-text">Slowbro</p>
+                            </div>
+                        </div>
+                        <br />
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-body">
+                            <p class="card-text">Slowking</p>
+                            </div>
+                        </div>
+                        <br />
+                    </div>
+                    
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-body">
+                            <p class="card-text">Squirtle</p>
+                            </div>
+                        </div>
+                        <br />
+                    </div>
+                    
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-body" >
+                            <p class="card-text">Wartortle</p>
+                            </div>
+                        </div>
+                        <br />
+                    </div>
+                    
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-body">
+                            <p class="card-text">Blastoise</p>
+                            </div>
+                        </div>
+                        <br />
+                    </div>
+
+                </div>
+                </div>
+
+    <!-- This is Bootstrap's JavaScript! Including it is what makes our website's interactive stuff work! -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- You might want to include your own scripts too! We've included an example file with one in here! -->
+    <script src="./assets/js/scripts.js"></script>
+</body>
+
+
